@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	height: 785px;
+	overflow: hidden;
+}
+.wrapper{
+	width: 3200px;
+	height: 100%;
+}
+/*
+	Estilos del Log in
+*/
+.login-wrapper{
+	position: absolute;
+	width: 1600px;
+	height: 100%;
+	background-image: url(../imagenes/login.jpg);
+}
+
+.Registro{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px;
+	border-radius: 4%;
+	width: 400px;
+	height: 420px;
+	background-color: white;
+	margin: -30px 300px;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid black;
+}
+.Registro h3{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+}
+.Registro button{
+	display: table-cell;
+	width: 100px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 60px;
+}
+.Registro label ,.Registro input[type=Text],.Registro input[type=file] ,.login input[type=Password]{
+	display:  block;
+}
+.Registro label{
+	font-size: 17px;
+}
+.Registro input[type=Text] ,.Registro input[type=file] ,.Registro input[type=Password]{
+	width: 80%;
+	height: 10px;
+	font-size: 17px;
+	padding: 7px;
+	border-radius: 5px;
+	margin: 10px;
+}
+/*
+	*Estilos para Registro
+*/
+.register{
+	overflow: hidden;
+	background-color: red;
+	width: 1600px;
+	height: 100%;
+	background-image: url(../imagenes/login.jpg);
+	background-size: cover;
+	margin-left: 1600px;
+}
+.register-information{
+	background-color: red;
+	width: 500px;
+	height: 700px;
+	margin-left: 200px;
+	margin-top: 30px;
+	border-radius: 5%;
+	background-color: rgba(0,0,0,0.5);
+}
